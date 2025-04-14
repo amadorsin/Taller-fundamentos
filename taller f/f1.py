@@ -1,9 +1,12 @@
-print("¡Hola mundo!")
-print("Bienvenidos al taller de Python")
-
-print(2023)
-print(20 + 25)
-print(True)
-print(False)
-print(2<3)
-
+print("Amador")
+print("18")
+print("Chica electrica")
+print(":3")
+print("owo")
+print("o.o")
+print("u3u")
+#letra de chica electria
+print("Tu cuerpo tibio no no no dejes de frotarlo al mio.. sin cesar")
+print("tus movimientos sueltan tus pechos que me tienen loco")
+print("veo que tu boca se transforma lentamente en un nino...")
+print("y que sencillo sentir tus labios y tu lengua hacer contacto con mi alma")
