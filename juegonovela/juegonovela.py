@@ -22,19 +22,19 @@ print("3. Lanza (vida 110) / atk 40")
 arma = input("Elige 1, 2 o 3 \n")
 if arma == "1":
     vida = espada
-    print("Haz elegido la Espada")
+    print("Haz elegido la Espada\n")
 elif arma == "2":
     vida = arco
-    print("Haz elegido el Arco")
+    print("Haz elegido el Arco\n")
 elif arma == "3":
     vida = lanza
-    print("Haz elegido la Lanza")
+    print("Haz elegido la Lanza\n")
 
 print("¡Te haz lanzado a la guerra!")
-print(f"Tu vida es de {vida}")
+print(f"Tu vida es de {vida}\n")
 
 print("Te haz encontrado frente a tu primer oponente")
-print(f"Su vida es de {vidae1}")
+print(f"Su vida es de {vidae1}\n")
 
 
 while vida > 0:
@@ -95,13 +95,13 @@ while vida > 0:
                 vida = vida + 5
                 print (f"Ahora tu vida es de {vida}")
             else:
-                print("El enemigo ha sido más rápido \n El enemigo ha aprovechado para atacarte")
+                print("El enemigo ha sido más rápido \nEl enemigo ha aprovechado para atacarte")
                 vida = vida - 10
-                print (f"Ahora tu vida es de {vida}")
+                print (f"Ahora tu vida es de {vida}\n")
 
-    print("Haz derrotado a tu primer oponente")
+    print("Haz derrotado a tu primer oponente\n")
     print("Sigues abriéndote camino a través de la sangrienta guerra... hasta que...")
-    print("¡Te haz encontrado a tu segundo oponente!")
+    print("¡Te haz encontrado a tu segundo oponente!\n")
 
     while vidae2 > 0:
         print("¿Qué acción realizarás?")
@@ -115,14 +115,14 @@ while vida > 0:
                 print("El enemigo ha esquivado tu ataque")
                 print("El enemigo ha aprovechado para atacarte")
                 vida = vida - 10
-                print (f"Ahora tu vida es de {vida}")
+                print (f"Ahora tu vida es de {vida}\n")
             else:
                 vidae2 = vidae2 - esatk
                 print(f"Le haz inflingido {esatk} de daño")
                 print(f"Ahora su vida es de {vidae2}")
                 print("El enemigo te ha atacado")
                 vida = vida - 10
-                print (f"Ahora tu vida es de {vida}")
+                print (f"Ahora tu vida es de {vida}\n")
         elif respuesta == "1" and arma == "2":
             print("Haz atacado")
             esquivar = (randint(0,10))
@@ -130,14 +130,14 @@ while vida > 0:
                 print("El enemigo ha esquivado tu ataque")
                 print("El enemigo ha aprovechado para atacarte")
                 vida = vida - 10
-                print (f"Ahora tu vida es de {vida}")
+                print (f"Ahora tu vida es de {vida}\n")
             else:
                 vidae2 = vidae2 - arcatk
                 print(f"Le haz inflingido {arcatk} de daño")
                 print(f"Ahora su vida es de {vidae2}")
                 print("El enemigo te ha atacado")
                 vida = vida - 10
-                print (f"Ahora tu vida es de {vida}")
+                print (f"Ahora tu vida es de {vida}\n")
         elif respuesta == "1" and arma == "3":
             print("Haz atacado")
             esquivar = (randint(0,10))
@@ -145,29 +145,29 @@ while vida > 0:
                 print("El enemigo ha esquivado tu ataque")
                 print("El enemigo ha aprovechado para atacarte")
                 vida = vida - 10
-                print (f"Ahora tu vida es de {vida}")
+                print (f"Ahora tu vida es de {vida}\n")
             else:
                 vidae2 = vidae2 - lanatk
                 print(f"Le haz inflingido {lanatk} de daño")
                 print(f"Ahora su vida es de {vidae2}")
                 print("El enemigo te ha atacado")
                 vida = vida - 10
-                print (f"Ahora tu vida es de {vida}")
+                print (f"Ahora tu vida es de {vida}\n")
         elif respuesta == "2":
             evadir = (randint(0,10))
             if evadir < 8:
-                print("Haz evadido \n ¡Por evadir haz ganado 5 de vida!")
+                print("Haz evadido \n¡Por evadir haz ganado 5 de vida!")
                 vida = vida + 5
-                print (f"Ahora tu vida es de {vida}")
+                print (f"Ahora tu vida es de {vida}\n")
             else:
-                print("El enemigo ha sido más rápido \n El enemigo ha aprovechado para atacarte")
+                print("El enemigo ha sido más rápido \nEl enemigo ha aprovechado para atacarte")
                 vida = vida - 10
-                print (f"Ahora tu vida es de {vida}")
+                print (f"Ahora tu vida es de {vida}\n")
 
-    print("Haz derrotado a tu segundo oponente")
+    print("Haz derrotado a tu segundo oponente\n")
     print("Ya estás muy cerca del Rey, pero...")
     print("Oh no... ahí se acerca un enemigo")
-    print("Estás frente a tu tercer opontente...")
+    print("Estás frente a tu tercer opontente...\n")
 
     while vidae3 > 0:
         print("¿Qué acción realizarás?")
@@ -181,14 +181,14 @@ while vida > 0:
                 print("El enemigo ha esquivado tu ataque")
                 print("El enemigo ha aprovechado para atacarte")
                 vida = vida - 10
-                print (f"Ahora tu vida es de {vida}")
+                print (f"Ahora tu vida es de {vida}\n")
             else:
                 vidae2 = vidae2 - esatk
                 print(f"Le haz inflingido {esatk} de daño")
                 print(f"Ahora su vida es de {vidae2}")
                 print("El enemigo te ha atacado")
                 vida = vida - 10
-                print (f"Ahora tu vida es de {vida}")
+                print (f"Ahora tu vida es de {vida}\n")
         elif respuesta == "1" and arma == "2":
             print("Haz atacado")
             esquivar = (randint(0,10))
@@ -196,14 +196,14 @@ while vida > 0:
                 print("El enemigo ha esquivado tu ataque")
                 print("El enemigo ha aprovechado para atacarte")
                 vida = vida - 10
-                print (f"Ahora tu vida es de {vida}")
+                print (f"Ahora tu vida es de {vida}\n")
             else:
                 vidae2 = vidae2 - arcatk
                 print(f"Le haz inflingido {arcatk} de daño")
                 print(f"Ahora su vida es de {vidae2}")
                 print("El enemigo te ha atacado")
                 vida = vida - 10
-                print (f"Ahora tu vida es de {vida}")
+                print (f"Ahora tu vida es de {vida}\n")
         elif respuesta == "1" and arma == "3":
             print("Haz atacado")
             esquivar = (randint(0,10))
@@ -211,24 +211,24 @@ while vida > 0:
                 print("El enemigo ha esquivado tu ataque")
                 print("El enemigo ha aprovechado para atacarte")
                 vida = vida - 10
-                print (f"Ahora tu vida es de {vida}")
+                print (f"Ahora tu vida es de {vida}\n")
             else:
                 vidae2 = vidae2 - lanatk
                 print(f"Le haz inflingido {lanatk} de daño")
                 print(f"Ahora su vida es de {vidae2}")
                 print("El enemigo te ha atacado")
                 vida = vida - 10
-                print (f"Ahora tu vida es de {vida}")
+                print (f"Ahora tu vida es de {vida}\n")
         elif respuesta == "2":
             evadir = (randint(0,10))
             if evadir < 7:
                 print("Haz evadido \n ¡Por evadir haz ganado 5 de vida!")
                 vida = vida + 5
-                print (f"Ahora tu vida es de {vida}")
+                print (f"Ahora tu vida es de {vida}\n")
             else:
                 print("El enemigo ha sido más rápido \n El enemigo ha aprovechado para atacarte")
                 vida = vida - 10
-                print (f"Ahora tu vida es de {vida}")
+                print (f"Ahora tu vida es de {vida}\n")
 
 
     #rey
